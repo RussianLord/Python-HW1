@@ -13,17 +13,15 @@
 #### ¬(X ⋁ Y ⋁ Z) = ¬X ⋀ ¬Y ⋀ ¬Z для всех значений предикат.
 #### Г = not ; V = or ; ^ = and
 
-X = 0
-Y = 0
-Z = 0
-rang = range(0, 2)
-for X in rang:
-    for Y in rang:
-        for Z in rang:
-            print(not (X or Y or Z) == (not X and not Y and not Z), end=' = ')
-            print(X, Y, Z)
-
- 
+# X = 0
+# Y = 0
+# Z = 0
+# rang = range(0, 2)
+# for X in rang:
+#     for Y in rang:
+#         for Z in rang:
+#             print(not (X or Y or Z) == (not X and not Y and not Z), end=' = ')
+#             print(X, Y, Z)
 
 #### 3. Напишите программу, которая принимает на вход координаты точки (X и Y), 
 #### причём X ≠ 0 и Y ≠ 0 и выдаёт номер четверти плоскости, в которой находится эта точка 
