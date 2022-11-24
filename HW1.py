@@ -101,3 +101,15 @@
 
 # distance = round(((B[0] - A[0]) ** 2 + (B[1] - A[1]) ** 2) ** 0.5, 2)
 # print('Расстояние между точками ',A ,' и ',B, 'равняется',  distance)
+
+###
+# import math
+# x1 = int(input())
+# y1 = int(input())
+# x2 = int(input())
+# y2 = int(input())
+# ac = y2 - y1
+# bc = x2 - x1
+# print(round((ac ** 2 + bc ** 2) ** 0.5, 2))
+# print(int(math.sqrt(ac ** 2 + bc ** 2) * 100) / 100)
+# print(str(math.sqrt(ac ** 2 + bc ** 2)).split('.')[0] + '.' + str(math.sqrt(ac ** 2 + bc ** 2)).split('.')[1][:2])
