@@ -34,6 +34,15 @@
 #             print(not (X or Y or Z) == (not X and not Y and not Z), end=' = ')
 #             print(X, Y, Z)
 
+###
+# for i in range(0b111 + 1):
+#     binary_string = format(i, '03b')
+#     x = int(binary_string[0])
+#     y = int(binary_string[1])
+#     z = int(binary_string[2])
+#     print(f'¬({x} ⋁ {y} ⋁ {z}) = ¬{x} ⋀ ¬{y} ⋀ ¬{z} есть {not (x or y or z) == (not x) and (not y) and (not z)}')
+
+
 #### 3. Напишите программу, которая принимает на вход координаты точки (X и Y), 
 #### причём X ≠ 0 и Y ≠ 0 и выдаёт номер четверти плоскости, в которой находится эта точка 
 #### (или на какой оси она находится).
